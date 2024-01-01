@@ -161,24 +161,21 @@
 
     <!-- contact section design  -->
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span> </h2>
-        <form action="#">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form id="contactForm">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
+                <input type="text" id="fullName" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="tel" id="mobileNumber" placeholder="Mobile Number">
+                <input type="text" id="emailSubject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <a href="https://wa.me/919654151898?text=Hi%2C%20Satya%20Tripathi%20%F0%9F%91%8B">
-
-                <input type="submit" value="Send Message" class="btn">
+            <textarea id="userMessage" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <a id="whatsappLink" href="#" onclick="sendWhatsAppMessage()">
+                <input type="button" value="Send Message" class="btn">
             </a>
         </form>
-
-    </section>
 
 
     <!-- fun fact section design  -->
@@ -212,3 +209,41 @@
 </body>
 
 </html>
+<script>
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    function validateMobileNumber(mobileNumber) {
+        // Simple validation, you can customize as needed
+        const mobileRegex = /^[0-9]{10}$/;
+        return mobileRegex.test(mobileNumber);
+    }
+
+    function sendWhatsAppMessage() {
+        const fullName = encodeURIComponent(document.getElementById('fullName').value);
+        const email = encodeURIComponent(document.getElementById('email').value);
+        const mobileNumber = encodeURIComponent(document.getElementById('mobileNumber').value);
+        const emailSubject = encodeURIComponent(document.getElementById('emailSubject').value);
+        const userMessage = encodeURIComponent(document.getElementById('userMessage').value);
+
+        // Validate email and mobile number
+        if (!validateEmail(email)) {
+            alert('Please enter a valid email address.');
+            return;
+        }
+
+        if (!validateMobileNumber(mobileNumber)) {
+            alert('Please enter a valid 10-digit mobile number.');
+            return;
+        }
+
+        const whatsappLink = `https://wa.me/919654151898?text=Hi%2C%20${fullName}%20%F0%9F%91%8B%0A%0AEmail:%20${email}%0AMobile:%20${mobileNumber}%0ASubject:%20${emailSubject}%0AMessage:%20${userMessage}`;
+
+        document.getElementById('whatsappLink').href = whatsappLink;
+
+        // Optionally, you can open the link in a new tab
+        // window.open(whatsappLink, '_blank');
+    }
+</script>
