@@ -46,7 +46,7 @@
 
 
             </div>
-            <a href="images/Satya-Tripathi-Resume.pdf" class="btn">Download Resume</a>
+            <a href="images/Satya-Tripathi-Resume.pdf" class="btn" target="_blank">Download Resume</a>
         </div>
         <div class="home-img">
             <!-- <img src="images/home.png" alt=""> -->
@@ -211,7 +211,7 @@
 </html>
 <script>
     function validateEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
         return emailRegex.test(email);
     }
 
@@ -228,11 +228,7 @@
         const emailSubject = encodeURIComponent(document.getElementById('emailSubject').value);
         const userMessage = encodeURIComponent(document.getElementById('userMessage').value);
 
-        // Validate email and mobile number
-        if (!validateEmail(email)) {
-            alert('Please enter a valid email address.');
-            return;
-        }
+       
 
         if (!validateMobileNumber(mobileNumber)) {
             alert('Please enter a valid 10-digit mobile number.');
