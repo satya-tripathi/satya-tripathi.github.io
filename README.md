@@ -2,9 +2,6 @@
 ### Hi there 👋
 
 
-<img width="auto" alt="image" src="https://github.com/satya-tripathi/satya-tripathi/assets/73766765/6ee43f59-4441-49eb-ba5c-8756dd9423ff">
-
-
 
 
 🚀 Welcome to my digital playground! I'm not just your average software developer; I'm your tech-savvy problem-solving sidekick! With over 5 years of coding adventures under my belt, I'm here to turn your software dreams into reality.
@@ -15,28 +12,28 @@
 
 🛠️ Let's embark on a journey together where innovation meets efficiency, and customer satisfaction is not just a goal—it's a guarantee! Join me in transforming ideas into tech wonders that leave a lasting impression.
 
-### https://satya-tripathi.github.io/satya-tripathi/
+### https://satya-tripathi.github.io/
 
-📌 Technical Toolkit 🛠️
+📌 **Technical Toolkit** 🛠️
 
-Back End Magic: C#, ASP.Net Core WebAPI, ASP.Net Core MVC, .Net Core 6.x., .NET Framework 4.x, EF Core, xUnit, Specflow, Robot Framework,Linq, NuGet Packaging
+**Back End Magic:** C#, ASP.Net Core WebAPI, ASP.Net Core MVC, .Net Core 6.x., .NET Framework 4.x, EF Core, xUnit, Specflow, Robot Framework, Linq, NuGet Packaging
 
-Front End Wizardry: Angular 2+, AngularJS, JavaScript,HTML 5, CSS, Bootstrap,React.Js, jQuery
+**Front End Wizardry:** Angular 2+, AngularJS, JavaScript,HTML 5, CSS, Bootstrap,React.Js, jQuery
 
-Certified Cloud Nerd: 🌐 Microsoft Certified Azure Fundamentals, 🚀 Microsoft Certified Azure Developer Associate
+**Certified Cloud Nerd:** 🌐 Microsoft Certified Azure Fundamentals, 🚀 Microsoft Certified Azure Developer Associate
 
-Master of the Development Universe: Agile Software Development, TDD, Agile, Jira, Microservices, Design Pattern, 12 Factor App, OOP, SOLID principles, Malware Analysis, Exploit Research, Vulnerability Assessment
+**Master of the Development Universe:** Agile Software Development, TDD, Agile, Jira, Microservices, Design Pattern, 12 Factor App, OOP, SOLID principles, Malware Analysis, Exploit Research, Vulnerability Assessment
 
-Database Dynamo: CRUD, EF, MS SQL Server, MongoDB, AWS Aurora, MySQL, T-SQL
+**Database Dynamo:** CRUD, EF, MS SQL Server, MongoDB, AWS Aurora, MySQL, T-SQL
 
-DevOps Maestro: Bamboo, Bitbucket, Veracode, Docker, SonarQube, Azure, AWS
+**DevOps Maestro:** Bamboo, Bitbucket, Veracode, Docker, SonarQube, Azure, AWS
   
  
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=satya-tripathi&label=Profile%20views&color=0e75b6&style=flat" alt="satya-tripathi" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=satya-tripathi&theme=matrix" alt="satya-tripathi" /></a> </p>
 
-<div> <a href="https://twitter.com/satyapsr" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
+<div> <a href="https://twitter.com/satya0__0" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/satya-tripathi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 <a href="https://github.com/satya-tripathi" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 <a href="https://instagram.com/satya-tripathi" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
